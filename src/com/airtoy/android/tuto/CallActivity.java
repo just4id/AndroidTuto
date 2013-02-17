@@ -15,7 +15,6 @@ public class CallActivity extends Activity {
         setContentView(R.layout.main);
         
         /**
-         * 开始呼叫号码
          */
         Intent dialInt = new Intent(Intent.ACTION_CALL, Uri.parse("tel:15907437491"));
         dialInt.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
